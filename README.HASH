@@ -1,0 +1,46 @@
+
+All parts of the assignment are complete. Rehash factor R is 43. 
+----------------
+Found Bugs:
+Part 3: 
+The only punctuation marks that are removed are: , . : ; [ ] ‘ " - 
+
+Compilation Procedure
+----------------
+Open a terminal.
+Go to the directory containing the source code.
+To compile type:
+  make all
+
+It is assumed that you are using a Linux machine and a g++ compiler.
+
+To execute:
+For Part 1 and 2:
+In source code directory type:
+
+./CreateAndTestHash <words file name> <query words file name> <flag> 
+
+<words file name> should be a file containing dictionary words
+<flag> should be “quadratic” for quadratic probing, “linear” for linear probing, and “double” for double hashing.
+
+
+
+For Part 3:
+In source code directory type:
+
+./SpellCheck <document file> <dictionary file> 
+
+<document file> should be the text file you want to spell check
+<dictionary file> should be the file containing dictionary words
+
+References:
+ 1.Mark Allen Weis, Data Structures And Algorithms Analysis in C++, Frolida International University-Forth Edition .
+
+2. accessed 3 April 2021<cplusplus.com,2000-2020>
+
+3. Problem Solving abd Algorithms and Data Structures, accesed 3 April 2021<runestone.academy>
+
+4. C++Arrays<w3Schools.com>
+
+
+
